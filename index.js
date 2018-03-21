@@ -3,7 +3,7 @@ const array2 = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"]
 
 function theBeatlesPlay(array1, array2){
   var array = [];
-  for (var i=0; i<array.length-1; i++){
+  for (var i=0; i<array1.length-1; i++){
     array.push(array1[i]+' plays '+array2[i]);
     
   }
